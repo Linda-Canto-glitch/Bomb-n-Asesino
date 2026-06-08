@@ -1,0 +1,118 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: linear-gradient(135deg, #ffe5ec, #f0e6ff); /* Mezcla de rosa pastel con lila suave */
+    background-attachment: fixed;
+}
+
+.header
+{
+	font-size: 55px !important;       /* ¡Mucho más grande! */
+    font-weight: bold !important;     /* Letra gruesa para que resalte */
+    color: #800020 !important;        /* Color guinda elegante que combina con el CETis */
+    letter-spacing: 1px !important;   /* Junta las letras para que se lea normal */
+    margin-top: 30px;
+}
+
+.header img
+{
+	width: 180px;margin-left: 0px;
+}
+
+.login_div
+{
+	background: #fbcce3; /* Asegura un tono rosa pastel bonito */
+    border-radius: 20px;       /* Hace las esquinas más redondeadas y amigables */
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15); /* ¡La sombra mágica de fondo! */
+    padding: 30px;
+
+}
+
+/* Esto cambia el color de todos los botones de tu página */
+button {
+    background-color: #ff69b4 !important; /* Un rosa fuerte muy bonito */
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Esto hace que cuando pases el mouse encima, cambie a un tono más fuerte */
+button:hover {
+    background-color: #d63384 !important;
+}
+
+.logo
+{
+	width: 250px;margin-top: 30px;border-radius: 80px;
+}
+
+#login_button
+{
+	width: 80%;border-radius: 15px;
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(233, 120, 208, 0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(156, 109, 109, 0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
