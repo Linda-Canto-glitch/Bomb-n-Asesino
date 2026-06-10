@@ -116,3 +116,43 @@ button:hover {
 {
 	padding-left:5px;color:grey;
 }
+
+/* Contenedor para rellenar el espacio vacío */
+.creadora_container {
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    margin-left: 50px;
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.6); /* Fondo blanco transparente súper elegante */
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Tu foto con bordes redondeados tipo aesthetic */
+.foto_creadora {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 15px;
+    border: 4px solid #fbcce3; /* Marco rosa que combina con Hello Kitty */
+    margin-bottom: 15px;
+}
+
+/* El texto de la creadora */
+.creadora_container h3 {
+    color: #800020; /* El guinda del CETis */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.creadora_container p {
+    color: #555;
+    font-size: 15px;
+}
+
+h1.header img {
+    width: 160px !important;
+    height: auto !important;
+}
